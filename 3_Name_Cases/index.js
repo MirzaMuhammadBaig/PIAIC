@@ -5,4 +5,4 @@ console.log("In upper case", personName.toUpperCase());
 var titleCaseName = personName.split(' ')
     .map(function (word) { return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase(); })
     .join(' ');
-console.log("In Title case", titleCaseName); // Prints "John Doe"
+console.log("In Title case", titleCaseName);
