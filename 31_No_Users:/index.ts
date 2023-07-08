@@ -1,4 +1,4 @@
-let usernames: string[] = ['admin', 'Eric', 'John', 'Alice', 'Jane'];
+let usernames: string[] = ['admin', 'Mirza', 'Muhammad', 'Baig', 'Blockchain Dev'];
 
 if (usernames.length === 0) {
   console.log("We need to find some users!");
