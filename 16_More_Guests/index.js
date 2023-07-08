@@ -3,6 +3,7 @@ var guestUnableToMakeIt = guestList[1];
 guestList.unshift('Abdullah');
 guestList.splice(2, 0, 'Eman');
 guestList.push('Haider');
+console.log("Good news! We found a bigger dinner table!");
 for (var i = 0; i < guestList.length; i++) {
     if (guestList[i] == guestUnableToMakeIt) {
         console.log("\n\"".concat(guestList[i], "\" is unable to attend the dinner.\n__________________________________________"));

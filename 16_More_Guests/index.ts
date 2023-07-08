@@ -5,6 +5,8 @@ guestList.unshift('Abdullah');
 guestList.splice(2, 0, 'Eman');
 guestList.push('Haider');
 
+console.log("Good news! We found a bigger dinner table!");
+
 for (let i = 0; i < guestList.length; i++) {
     if(guestList[i] == guestUnableToMakeIt){
         console.log(`\n"${guestList[i]}" is unable to attend the dinner.\n__________________________________________`);
