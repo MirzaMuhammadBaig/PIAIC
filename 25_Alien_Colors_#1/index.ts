@@ -1,9 +1,13 @@
 let alien_color: string = 'green';
 
 if (alien_color == 'green') {
-  console.log("Congratulations! You just earned 5 points!");
+  console.log("The player just earned 5 points.");
 }
 
-if (alien_color === 'yellow') {
+let alien_color2: string = 'yellow';
+
+if (alien_color2 == 'yellow') {
     console.log("The player just earned 5 points.");
+}else{
+
 }
